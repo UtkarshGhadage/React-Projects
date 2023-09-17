@@ -1,0 +1,122 @@
+/* Select all CSS */
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    width: auto;
+    border-radius: 5px;
+    box-shadow: -1px 4px 20px 14px rgba(0, 0, 0, 0.2);
+    color: black;
+    font-weight: bold;
+}
+
+.nav-items > ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-items > ul > li{
+    padding: 10px;
+}
+
+.nav-items{   
+    padding: 0 10px 0;
+    width: auto;
+}
+
+.nav-items > ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-items > ul > li{
+    padding: 40px 10px 0 0;
+    font-size: large;
+    cursor: pointer;
+}
+
+.logo{
+    width: 100;
+}
+
+
+
+
+
+
+
+
+
+
+.card{
+    width: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card > img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.res-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: -1px 4px 20px 14px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.card > span{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card > h4{
+    margin: 8px;
+}
+.card > span > h4{
+    text-align: center;
+}
+
+.card > span > h4:first-child{
+    display: flex;
+    align-items: center;
+    background-color: rgb(19, 176, 1);
+    border-radius: 5px;
+    padding: 0 2px 0;
+    color: white;
+}
+
+.card > span > h4:first-child .fa-star{
+    font-size: small;
+    padding: 0 5px 3px 0;
+}
+
+
+
+
+.search-container{
+    align-self: start;
+    margin-left: 20px;
+}
