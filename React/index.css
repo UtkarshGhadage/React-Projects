@@ -203,6 +203,20 @@
   font-family: "PT Sans", "Lato", Calibri, sans-serif;
 }
 
+.aboutH1{
+  width: 100px;
+    height: 100px;
+    background-color: red;
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+}
+
 /* all link CSS */
 a {
   text-decoration: none;

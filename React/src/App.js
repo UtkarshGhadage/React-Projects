@@ -10,6 +10,7 @@ import RestaurantMenu from "../components/RestaurantMenu";
 import { Contact } from "../components/Contact";
 
 import {RouterProvider, createBrowserRouter, Outlet} from "react-router-dom"
+import { Profile } from "../components/Profile";
 
 
 /**
@@ -52,7 +53,11 @@ const appRouter = createBrowserRouter([
       element: <Body/>
     },{
       path: "/about",
-      element: <About/>
+      element: <About/>,
+      children:[ {
+        path: "profile",
+        element: <Profile/>
+      }]
     },{
       path: "/contact",
       element: <Contact/>
